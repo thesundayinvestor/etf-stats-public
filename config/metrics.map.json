@@ -15,12 +15,12 @@
     "inception_date":        { "display": "Inception Date", "visible": true, "format": "string" },
     "institutional_pct":     { "display": "Institutional %", "visible": false, "format": { "example": "65.0%" } },
     "div_years": { "display": "Consecutive Dividend Years", "visible": false, "format": { "example": "13" } },
-    "div_years_etf": { "display": "Consecutive Dividend Years (ETF)", "visible": true, "format": { "example": "13" } },
+    "div_years_etf": { "display": "Cons. Dividend Years", "visible": true, "format": { "example": "13" } },
     "div_growth_years": { "display": "Dividend Growth Years", "visible": false, "format": { "example": "13" } },
-    "div_growth_years_etf": { "display": "Dividend Growth Years (ETF)", "visible": true, "format": { "example": "13" } },
+    "div_growth_years_etf": { "display": "Cons. Dividend Growth Years", "visible": true, "format": { "example": "13" } },
 
     "aum":                   { "display": "AUM", "visible": true, "format": { "example": "$1B" } },
-    "market_cap":            { "display": "Avg. Market Cap", "visible": true, "format": { "example": "$1B" } },
+    "market_cap":            { "display": "Average Market Cap", "visible": true, "format": { "example": "$1B" } },
     "avg_volume":            { "display": "Average Volume (Shares)", "visible": false, "format": { "example": "1,000" } },
     "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "1,000" } },
     "weekly_volume_shares":  { "display": "Weekly Volume (Shares)", "visible": false, "format": { "example": "1,000" } },
@@ -28,12 +28,12 @@
     "expense_ratio":         { "display": "Expense Ratio", "visible": true, "format": { "example": "0.60%" } },
 
     "asset_turnover_ttm":    { "display": "Asset Turnover", "visible": true, "format": { "example": "0.05" } },
-    "current_ratio_mrq":     { "display": "Current Ratio", "visible": true, "format": { "example": "1.25" } },
+    "current_ratio_mrq":     { "display": "Current Ratio", "visible": false, "format": { "example": "1.25" } },
     "quick_ratio_mrq":       { "display": "Quick Ratio", "visible": false, "format": { "example": "1.10" } },
     "debt_equity_mrq":       { "display": "Debt / Equity", "visible": true, "format": { "example": "0.80" } },
     "debt_fcf_mrq":          { "display": "Debt / FCF", "visible": true, "format": { "example": "5.00" } },
     "interest_coverage_mrq": { "display": "Interest Coverage", "visible": true, "format": { "example": "10.0" } },
-    "ltd_total_capital_mrq": { "display": "LTD / Total Capital", "visible": true, "format": { "example": "35.0%" } },
+    "ltd_total_capital_mrq": { "display": "LTD / Total Capital", "visible": false, "format": { "example": "35.0%" } },
     "gross_margin_ttm":      { "display": "Gross Margin", "visible": true, "format": { "example": "47.50%" } },
     "ebit_margin_ttm":       { "display": "EBIT Margin", "visible": true, "format": { "example": "22.50%" } },
     "ebitda_margin_ttm":     { "display": "EBITDA Margin", "visible": true, "format": { "example": "30.00%" } },
@@ -62,7 +62,7 @@
     "ebitda_cagr_3y":        { "display": "3Y EBITDA CAGR", "visible": true, "format": { "example": "6.50%" } },
     "ebitda_growth_fwd":     { "display": "1Y Estimated EBITDA Growth", "visible": true, "format": { "example": "6.00%" } },
     "ebitda_growth_ttm":     { "display": "1Y Historical EBITDA Growth", "visible": true, "format": { "example": "3.50%" } },
-    "net_income_cagr_3y":    { "display": "3Y Net Income CAGR", "visible": true, "format": { "example": "7.00%" } },
+    "net_income_cagr_3y":    { "display": "3Y Net Income CAGR", "visible": false, "format": { "example": "7.00%" } },
     "total_assets_cagr_3y":  { "display": "3Y Total Assets CAGR", "visible": true, "format": { "example": "5.00%" } },
 
     "price_ret_1w":          { "display": "Price Return (1W) Raw", "visible": false, "format": { "example": "0.50%" } },
@@ -77,7 +77,7 @@
     "total_return_3y":       { "display": "Total Return (3Y) Raw", "visible": false, "format": { "example": "25.00%" } },
     "total_return_5y":       { "display": "Total Return (5Y) Raw", "visible": false, "format": { "example": "45.00%" } },
     "total_return_10y":      { "display": "Total Return (10Y) Raw", "visible": false, "format": { "example": "100.00%" } },
-    "price_position_annual": { "display": "52W Position (Underlying)", "visible": true, "format": { "example": "47.5%" } },
+    "price_position_annual": { "display": "52W Position", "visible": true, "format": { "example": "47.5%" } },
     "price_vs_10d_sma":      { "display": "Price vs 10D SMA Raw", "visible": false, "format": { "example": "1.25%" } },
     "price_vs_50d_sma":      { "display": "Price vs 50D SMA Raw", "visible": false, "format": { "example": "2.50%" } },
     "price_vs_100d_sma":     { "display": "Price vs 100D SMA Raw", "visible": false, "format": { "example": "3.50%" } },
@@ -115,8 +115,8 @@
     "eps_surprise_pct_mrq":  { "display": "MRQ EPS Surprise", "visible": true, "format": { "example": "2.50%" } },
     "sales_surprise_pct_mrq":{ "display": "MRQ Sales Surprise", "visible": true, "format": { "example": "1.75%" } },
 
-    "total_return_3y_":   { "display": "Total Return (3Y) Raw", "visible": false, "format": { "example": "25.00%" } },
-    "total_return_5y_":   { "display": "Total Return (5Y) Raw", "visible": false, "format": { "example": "45.00%" } },
-    "total_return_10y_":  { "display": "Total Return (10Y) Raw", "visible": false, "format": { "example": "100.00%" } }
+    "total_return_3y":   { "display": "Total Return (3Y) Raw", "visible": false, "format": { "example": "25.00%" } },
+    "total_return_5y":   { "display": "Total Return (5Y) Raw", "visible": false, "format": { "example": "45.00%" } },
+    "total_return_10y":  { "display": "Total Return (10Y) Raw", "visible": false, "format": { "example": "100.00%" } }
   }
 }
