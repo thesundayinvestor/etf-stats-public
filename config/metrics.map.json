@@ -14,8 +14,8 @@
 
     "inception_date":        { "display": "Inception Date", "visible": true, "format": "string" },
     "institutional_pct":     { "display": "Institutional %", "visible": true, "format": { "example": "65.0%" } },
-    "consecutive_dividend_years": { "display": "Consecutive Dividend Years", "visible": true, "format": { "example": "13" } },
-    "consecutive_dividend_years_etf": { "display": "Consecutive Dividend Years (ETF)", "visible": true, "format": { "example": "13" } },
+    "div_years": { "display": "Consecutive Dividend Years", "visible": true, "format": { "example": "13" } },
+    "div_years_etf": { "display": "Consecutive Dividend Years (ETF)", "visible": true, "format": { "example": "13" } },
     "dividend_growth_years": { "display": "Dividend Growth Years", "visible": true, "format": { "example": "13" } },
 
     "aum":                   { "display": "AUM", "visible": true, "format": { "example": "$1B" } },
