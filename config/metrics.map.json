@@ -19,10 +19,10 @@
     "div_growth_years": { "display": "Div. Growth Years", "visible": false, "format": { "example": "13" } },
     "div_growth_years_etf": { "display": "Dividend Growth Years", "visible": true, "format": { "example": "13" } },
 
-    "aum":                   { "display": "AUM", "visible": true, "format": { "example": "1M" } },
-    "market_cap":            { "display": "Average Market Cap", "visible": true, "format": { "example": "800.00" } },
-    "avg_volume":            { "display": "Average Volume (Shares)", "visible": false, "format": { "example": "800" } },
-    "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "800" } },
+    "aum":                   { "display": "AUM", "visible": true, "format": { "example": "1,000,000" } },
+    "market_cap":            { "display": "Market Cap", "visible": true, "format": { "example": "800,000" } },
+    "avg_volume":            { "display": "Average Volume (Shares)", "visible": false, "format": { "example": "800,000" } },
+    "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "800,000" } },
     "weekly_volume_shares":  { "display": "Weekly Volume (Shares)", "visible": false, "format": { "example": "100M" } },
 
     "expense_ratio":         { "display": "Expense Ratio", "visible": true, "format": { "example": "0.60%" } },
