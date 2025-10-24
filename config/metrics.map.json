@@ -89,4 +89,64 @@
   "total_return_5y": {"display":"Total Return (5Y)","group":"MOMENTUM","format":"percent","csv":"TOTAL RETURN (5Y)"},
   "value_score": {"display":"Value Score","group":"VALUE","format":"number","csv":"VALUE SCORE"},
   "weekly_volume_shares": {"display":"Weekly Volume (Shares)","group":"LIQUIDITY","format":"integer","csv":"WEEKLY VOLUME-SHARES"}
+"composite_score": {
+  "display": "Composite Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "COMPOSITE SCORE"
+},
+"risk_score": {
+  "display": "Risk Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "RISK"
+},
+"quality_score": {
+  "display": "Quality Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "QUALITY"
+},
+"liquidity_score": {
+  "display": "Liquidity Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "LIQUIDITY"
+},
+"momentum_score_factor": {
+  "display": "Momentum Score (Factor)",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "MOMENTUM"
+},
+"sentiment_score": {
+  "display": "Sentiment Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "SENTIMENT"
+},
+"value_score_factor": {
+  "display": "Value Score (Factor)",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "VALUE"
+},
+"growth_score_factor": {
+  "display": "Growth Score (Factor)",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "GROWTH"
+},
+"dividends_score": {
+  "display": "Dividend Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "DIVIDENDS"
+},
+"size_score": {
+  "display": "Size Score",
+  "group": "SCORES",
+  "format": "number",
+  "csv": "SIZE"
+}
 }
