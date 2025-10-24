@@ -1,31 +1,8 @@
 {
   "metrics": {
-    "COMPOSITE SCORE": { "display": "Composite Score", "group": "SCORES", "format": "number" },
-    "QUALITY": { "display": "Quality Score", "group": "SCORES", "format": "number" },
-    "VALUE": { "display": "Value Score", "group": "SCORES", "format": "number" },
-    "GROWTH": { "display": "Growth Score", "group": "SCORES", "format": "number" },
-    "MOMENTUM": { "display": "Momentum Score", "group": "SCORES", "format": "number" },
-    "RISK": { "display": "Risk Score", "group": "SCORES", "format": "number" },
-    "SIZE": { "display": "Size Score", "group": "SCORES", "format": "number" },
-    "DIVIDENDS": { "display": "Dividend Score", "group": "SCORES", "format": "number" },
-    "COSTS": { "display": "Cost Score", "group": "SCORES", "format": "number" },
-    "SENTIMENT": { "display": "Sentiment Score", "group": "SCORES", "format": "number" },
-    "LIQUIDITY": { "display": "Liquidity Score", "group": "SCORES", "format": "number" },
-
-    "ASSET_TURNOVER_TTM": { "display": "Asset Turnover (TTM)", "group": "QUALITY", "format": "number" },
-    "CURRENT_RATIO_MRQ": { "display": "Current Ratio (MRQ)", "group": "QUALITY", "format": "number" },
-    "EBIT_MARGIN_TTM": { "display": "EBIT Margin (TTM)", "group": "QUALITY", "format": "percent" },
-    "EBITDA_MARGIN_TTM": { "display": "EBITDA Margin (TTM)", "group": "QUALITY", "format": "percent" },
-    "GROSS_MARGIN_TTM": { "display": "Gross Margin (TTM)", "group": "QUALITY", "format": "percent" },
-    "NET_MARGIN_TTM": { "display": "Net Margin (TTM)", "group": "QUALITY", "format": "percent" },
-    "PROFIT_SCORE": { "display": "Profit Score", "group": "QUALITY", "format": "number" },
-
-    "EV_EBITDA_TTM": { "display": "EV/EBITDA (TTM)", "group": "VALUE", "format": "number" },
-    "EV_SALES_TTM": { "display": "EV/Sales (TTM)", "group": "VALUE", "format": "number" },
-    "P_B_TTM": { "display": "P/B (TTM)", "group": "VALUE", "format": "number" },
-    "P_CF_TTM": { "display": "P/CF (TTM)", "group": "VALUE", "format": "number" },
-    "P_E_FWD": { "display": "P/E (Forward)", "group": "VALUE", "format": "number" },
-    "P_E_TTM": { "display": "P/E (TTM)", "group": "VALUE", "format": "number" },
-    "P_S_TTM": { "display": "P/S (TTM)", "group": "VALUE", "format": "number" }
+    "asset_turnover_ttm": {
+      "display": "Asset Turnover (TTM)",
+      "format": "number"
+    }
   }
 }
