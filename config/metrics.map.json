@@ -12,7 +12,7 @@
     "sentiment_score": { "display": "Sentiment Score", "visible": true, "format": { "example": "7.50" } },
     "costs_score":     { "display": "Cost Score",     "visible": true, "format": { "example": "7.50" } },
 
-    "inception_date":        { "display": "Inception Date", "visible": true, "format": { "example": "2012-04-23T18:25:43.511Z" } },
+    "inception_date":        { "display": "Inception Date", "visible": true, "format": { "example": "2012/12/31" } },
     "institutional_pct":     { "display": "Institutional %", "visible": false, "format": { "example": "65.0%" } },
     "div_years": { "display": "Consecutive Dividend Years", "visible": false, "format": { "example": "13" } },
     "div_years_etf": { "display": "Dividend Years", "visible": true, "format": { "example": "13" } },
