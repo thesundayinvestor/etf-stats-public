@@ -27,7 +27,5 @@
     "P_E_FWD": { "display": "P/E (Forward)", "group": "VALUE", "format": "number" },
     "P_E_TTM": { "display": "P/E (TTM)", "group": "VALUE", "format": "number" },
     "P_S_TTM": { "display": "P/S (TTM)", "group": "VALUE", "format": "number" }
-
-    /* Add additional metrics here later */
   }
 }
