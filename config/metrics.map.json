@@ -21,9 +21,8 @@
 
     "aum":                   { "display": "AUM", "visible": true, "format": { "example": "$0.0B", "autoScale": true } },
     "market_cap":            { "display": "Market Cap", "visible": true, "format": { "example": "$0.0B", "autoScale": true, "multiplier": 1000000 } },
-    "avg_volume_any":        { "display": "Volume", "visible": true,  "format": { "example": "0.0M", "autoScale": true } },
     "avg_volume":            { "display": "Average Volume (Shares)", "visible": false, "format": { "example": "0.0M", "autoScale": true } },
-    "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "0.0M", "autoScale": true } },
+    "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "0.0", "autoScale": true } },
     "weekly_volume_shares":  { "display": "Weekly Volume (Shares)", "visible": false, "format": { "example": "100M" } },
 
     "expense_ratio":         { "display": "Expense Ratio", "visible": true, "format": { "example": "0.60%" } },
