@@ -1,102 +1,320 @@
 {
-  "asset_turnover_ttm": {"display":"Asset Turnover (TTM)","group":"QUALITY","format":"number","csv":"ASSET TURNOVER (TTM)"},
-  "aum": {"display":"AUM","group":"LIQUIDITY","format":"currency","csv":"AUM"},
-  "avg_volume": {"display":"Average Volume","group":"LIQUIDITY","format":"integer","csv":"AVERAGE VOLUME"},
-  "avg_volume_etf": {"display":"Average Volume (ETF)","group":"LIQUIDITY","format":"integer","csv":"AVERAGE VOLUME (ETF)"},
-  "beta_2y": {"display":"2Y Beta","group":"RISK","format":"number","csv":"BETA (2Y)"},
-  "beta_5y": {"display":"5Y Beta","group":"RISK","format":"number","csv":"BETA (5Y)"},
-  "div_years": {"display":"Consecutive Dividend Years","group":"DIVIDENDS","format":"integer","csv":"CONSECUTIVE DIVIDEND YEARS"},
-  "div_years_etf": {"display":"Consecutive Div Years (ETF)","group":"DIVIDENDS","format":"integer","csv":"CONSECUTIVE DIVIDEND YEARS (ETF)"},
-  "current_ratio_mrq": {"display":"Current Ratio (MRQ)","group":"QUALITY","format":"number","csv":"CURRENT RATIO (MRQ)"},
-  "debt_equity_mrq": {"display":"Debt/Equity (MRQ)","group":"RISK","format":"number","csv":"DEBT-EQUITY (MRQ)"},
-  "debt_fcf_mrq": {"display":"Debt/FCF (MRQ)","group":"RISK","format":"number","csv":"DEBT-FCF (MRQ)"},
-  "div_cagr_3y": {"display":"Dividend CAGR (3Y)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND CAGR (3Y)"},
-  "div_cagr_3y_etf": {"display":"Dividend CAGR (3Y) (ETF)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND CAGR (3Y) (ETF)"},
-  "div_cagr_5y": {"display":"Dividend CAGR (5Y)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND CAGR (5Y)"},
-  "div_cagr_5y_etf": {"display":"Dividend CAGR (5Y) (ETF)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND CAGR (5Y) (ETF)"},
-  "div_consistency_score": {"display":"Dividend Consistency Score","group":"DIVIDENDS","format":"number","csv":"DIVIDEND CONSISTENCY SCORE"},
-  "div_growth_score": {"display":"Dividend Growth Score","group":"DIVIDENDS","format":"number","csv":"DIVIDEND GROWTH SCORE"},
-  "div_growth_years": {"display":"Dividend Growth Years","group":"DIVIDENDS","format":"integer","csv":"DIVIDEND GROWTH YEARS"},
-  "div_growth_years_etf": {"display":"Dividend Growth Years (ETF)","group":"DIVIDENDS","format":"integer","csv":"DIVIDEND GROWTH YEARS (ETF)"},
-  "div_payout_4y": {"display":"Dividend Payout (4Y)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND PAYOUT RATIO (4Y)"},
-  "div_payout_ttm": {"display":"Dividend Payout (TTM)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND PAYOUT RATIO (TTM)"},
-  "div_rate_fwd": {"display":"Dividend Rate (Fwd)","group":"DIVIDENDS","format":"currency","csv":"DIVIDEND RATE (FWD)"},
-  "div_rate_ttm": {"display":"Dividend Rate (TTM)","group":"DIVIDENDS","format":"currency","csv":"DIVIDEND RATE (TTM)"},
-  "div_safety_score": {"display":"Dividend Safety Score","group":"DIVIDENDS","format":"number","csv":"DIVIDEND SAFETY SCORE"},
-  "div_yield_4y": {"display":"Dividend Yield (4Y)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND YIELD (4Y)"},
-  "div_yield_fwd": {"display":"Dividend Yield (Fwd)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND YIELD (FWD)"},
-  "div_yield_fwd_etf": {"display":"Dividend Yield (Fwd) (ETF)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND YIELD (FWD) (ETF)"},
-  "div_yield_ttm": {"display":"Dividend Yield (TTM)","group":"DIVIDENDS","format":"percent","csv":"DIVIDEND YIELD (TTM)"},
-  "div_yield_score": {"display":"Dividend Yield Score","group":"DIVIDENDS","format":"number","csv":"DIVIDEND YIELD SCORE"},
-  "ebit_margin_ttm": {"display":"EBIT Margin (TTM)","group":"QUALITY","format":"percent","csv":"EBIT MARGIN (TTM)"},
-  "ebitda_cagr_3y": {"display":"EBITDA CAGR (3Y)","group":"DIVIDENDS","format":"percent","csv":"EBITDA CAGR (3Y)"},
-  "ebitda_growth_fwd": {"display":"EBITDA Growth (Fwd)","group":"DIVIDENDS","format":"percent","csv":"EBITDA GROWTH (FWD)"},
-  "ebitda_growth_ttm": {"display":"EBITDA Growth (TTM)","group":"DIVIDENDS","format":"percent","csv":"EBITDA GROWTH (TTM)"},
-  "ebitda_margin_ttm": {"display":"EBITDA Margin (TTM)","group":"QUALITY","format":"percent","csv":"EBITDA MARGIN (TTM)"},
-  "eps_cagr_3y": {"display":"EPS CAGR (3Y)","group":"GROWTH","format":"percent","csv":"EPS CAGR (3Y)"},
-  "eps_growth_fwd": {"display":"EPS Growth (Fwd)","group":"GROWTH","format":"percent","csv":"EPS GROWTH (FWD)"},
-  "eps_growth_ttm": {"display":"EPS Growth (TTM)","group":"GROWTH","format":"percent","csv":"EPS GROWTH (TTM)"},
-  "eps_revision_score": {"display":"EPS Revision Score","group":"SENTIMENT","format":"number","csv":"EPS REVISION SCORE"},
-  "eps_surprise_pct_mrq": {"display":"EPS Surprise % (MRQ)","group":"SENTIMENT","format":"percent","csv":"EPS SURPRISE % (MRQ)"},
-  "ev_ebitda_ttm": {"display":"EV/EBITDA (TTM)","group":"VALUE","format":"number","csv":"EV-EBITDA (TTM)"},
-  "ev_sales_ttm": {"display":"EV/Sales (TTM)","group":"VALUE","format":"number","csv":"EV-SALES (TTM)"},
-  "expected_div_yield": {"display":"Expected Dividend Yield","group":"DIVIDENDS","format":"percent","csv":"EXPECTED DIVIDEND YIELD"},
-  "expense_ratio": {"display":"Expense Ratio","group":"COSTS","format":"percent","csv":"EXPENSE RATIO"},
-  "fcf_cagr_3y": {"display":"FCF CAGR (3Y)","group":"DIVIDENDS","format":"percent","csv":"FCF CAGR (3Y)"},
-  "fcf_margin_ttm": {"display":"FCF Margin (TTM)","group":"DIVIDENDS","format":"percent","csv":"FCF MARGIN (TTM)"},
-  "gross_margin_ttm": {"display":"Gross Margin (TTM)","group":"QUALITY","format":"percent","csv":"GROSS MARGIN (TTM)"},
-  "growth_score": {"display":"Growth Score","group":"GROWTH","format":"number","csv":"GROWTH SCORE"},
-  "inception_date": {"display":"Inception Date","group":"RISK","format":"date","csv":"INCEPTION DATE"},
-  "institutional_pct": {"display":"Institutional %","group":"RISK","format":"percent","csv":"INSTITUTIONAL %"},
-  "interest_coverage_mrq": {"display":"Interest Coverage (MRQ)","group":"RISK","format":"number","csv":"INTEREST COVERAGE (MRQ)"},
-  "ltd_total_capital_mrq": {"display":"LTD/Total Capital (MRQ)","group":"RISK","format":"number","csv":"LTD-TOTAL CAPITAL (MRQ)"},
-  "market_cap": {"display":"Market Cap","group":"SIZE","format":"currency","csv":"MARKET CAP"},
-  "momentum_score": {"display":"Momentum Score","group":"MOMENTUM","format":"number","csv":"MOMENTUM SCORE"},
-  "net_income_cagr_3y": {"display":"Net Income CAGR (3Y)","group":"GROWTH","format":"percent","csv":"NET INCOME CAGR (3Y)"},
-  "net_margin_ttm": {"display":"Net Margin (TTM)","group":"QUALITY","format":"percent","csv":"NET MARGIN (TTM)"},
-  "price_pos_annual": {"display":"Price Position (Annual)","group":"MOMENTUM","format":"number","csv":"PRICE POSITION (ANNUAL)"},
-  "price_ret_10y": {"display":"Price Return (10Y)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (10Y)"},
-  "price_ret_1m": {"display":"Price Return (1M)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (1M)"},
-  "price_ret_1w": {"display":"Price Return (1W)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (1W)"},
-  "price_ret_1y": {"display":"Price Return (1Y)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (1Y)"},
-  "price_ret_3y": {"display":"Price Return (3Y)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (3Y)"},
-  "price_ret_5y": {"display":"Price Return (5Y)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (5Y)"},
-  "price_ret_6m": {"display":"Price Return (6M)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (6M)"},
-  "price_ret_ytd": {"display":"Price Return (YTD)","group":"MOMENTUM","format":"percent","csv":"PRICE RETURN (YTD)"},
-  "price_vs_100d_sma": {"display":"Price vs. 100D SMA","group":"MOMENTUM","format":"percent","csv":"PRICE VS. 100D SMA"},
-  "price_vs_10d_sma": {"display":"Price vs. 10D SMA","group":"MOMENTUM","format":"percent","csv":"PRICE VS. 10DSMA"},
-  "price_vs_200d_sma": {"display":"Price vs. 200D SMA","group":"MOMENTUM","format":"percent","csv":"PRICE VS. 200D SMA"},
-  "price_vs_50d_sma": {"display":"Price vs. 50D SMA","group":"MOMENTUM","format":"percent","csv":"PRICE VS. 50D SMA"},
-  "pb_ttm": {"display":"P/B (TTM)","group":"VALUE","format":"number","csv":"PRICE-BOOK (TTM)"},
-  "pcf_ttm": {"display":"P/CF (TTM)","group":"VALUE","format":"number","csv":"PRICE-CASH FLOW (TTM)"},
-  "pe_fwd": {"display":"P/E (Fwd)","group":"VALUE","format":"number","csv":"PRICE-EARNINGS (FWD)"},
-  "pe_ttm": {"display":"P/E (TTM)","group":"VALUE","format":"number","csv":"PRICE-EARNINGS (TTM)"},
-  "ps_ttm": {"display":"P/S (TTM)","group":"VALUE","format":"number","csv":"PRICE-SALES (TTM)"},
-  "profit_score": {"display":"Profit Score","group":"QUALITY","format":"number","csv":"PROFIT SCORE"},
-  "quick_ratio_mrq": {"display":"Quick Ratio (MRQ)","group":"QUALITY","format":"number","csv":"QUICK RATIO (MRQ)"},
-  "roa_ttm": {"display":"ROA (TTM)","group":"QUALITY","format":"percent","csv":"ROA (TTM)"},
-  "roe_ttm": {"display":"ROE (TTM)","group":"QUALITY","format":"percent","csv":"ROE (TTM)"},
-  "rotc_ttm": {"display":"ROTC (TTM)","group":"QUALITY","format":"percent","csv":"ROTC (TTM)"},
-  "sales_cagr_3y": {"display":"Sales CAGR (3Y)","group":"GROWTH","format":"percent","csv":"SALES CAGR (3Y)"},
-  "sales_cagr_5y": {"display":"Sales CAGR (5Y)","group":"GROWTH","format":"percent","csv":"SALES CAGR (5Y)"},
-  "sales_growth_fwd": {"display":"Sales Growth (Fwd)","group":"GROWTH","format":"percent","csv":"SALES GROWTH (FWD)"},
-  "sales_growth_ttm": {"display":"Sales Growth (TTM)","group":"GROWTH","format":"percent","csv":"SALES GROWTH (TTM)"},
-  "sales_surprise_pct_mrq": {"display":"Sales Surprise % (MRQ)","group":"SENTIMENT","format":"percent","csv":"SALES SURPRISE % (MRQ)"},
-  "subindustry_conc_top10": {"display":"Sub-Industry Concentration (Top 10)","group":"RISK","format":"percent","csv":"SUB-INDUSTRY CONCENTRATION (TOP 10)"},
-  "total_assets_cagr_3y": {"display":"Total Assets CAGR (3Y)","group":"GROWTH","format":"percent","csv":"TOTAL ASSETS CAGR (3Y)"},
-  "total_return_10y": {"display":"Total Return (10Y)","group":"MOMENTUM","format":"percent","csv":"TOTAL RETURN (10Y)"},
-  "total_return_3y": {"display":"Total Return (3Y)","group":"MOMENTUM","format":"percent","csv":"TOTAL RETURN (3Y)"},
-  "total_return_5y": {"display":"Total Return (5Y)","group":"MOMENTUM","format":"percent","csv":"TOTAL RETURN (5Y)"},
-  "value_score": {"display":"Value Score","group":"VALUE","format":"number","csv":"VALUE SCORE"},
-  "weekly_volume_shares": {"display":"Weekly Volume (Shares)","group":"LIQUIDITY","format":"integer","csv":"WEEKLY VOLUME-SHARES"}
-"composite_score": {"display": "Composite Score","group": "SCORES","format": "number","csv": "COMPOSITE SCORE"},
-"risk_score": {"display": "Risk Score","group": "SCORES","format": "number","csv": "RISK"},
-"quality_score": {"display": "Quality Score","group": "SCORES","format": "number","csv": "QUALITY"},
-"liquidity_score": {"display": "Liquidity Score","group": "SCORES","format": "number","csv": "LIQUIDITY"},
-"momentum_score_factor": {"display": "Momentum Score (Factor)","group": "SCORES","format": "number","csv": "MOMENTUM"},
-"sentiment_score": {"display": "Sentiment Score","group": "SCORES","format": "number","csv": "SENTIMENT"},
-"value_score_factor": {"display": "Value Score (Factor)","group": "SCORES","format": "number","csv": "VALUE"},
-"growth_score_factor": {"display": "Growth Score (Factor)","group": "SCORES","format": "number","csv": "GROWTH"},
-"dividends_score": {"display": "Dividend Score","group": "SCORES","format": "number","csv": "DIVIDENDS"},
-"size_score": {"display": "Size Score","group": "SCORES","format": "number","csv": "SIZE"}
+  "metrics": {
+
+    /* =========================
+       COMPOSITE / SCORE SYSTEM
+       ========================= */
+
+    "COMPOSITE SCORE": {
+      "display": "Composite Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "QUALITY": {
+      "display": "Quality Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "VALUE": {
+      "display": "Value Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "GROWTH": {
+      "display": "Growth Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "MOMENTUM": {
+      "display": "Momentum Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "RISK": {
+      "display": "Risk Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "SIZE": {
+      "display": "Size Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "DIVIDENDS": {
+      "display": "Dividend Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "COSTS": {
+      "display": "Cost Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "SENTIMENT": {
+      "display": "Sentiment Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+    "LIQUIDITY": {
+      "display": "Liquidity Score",
+      "group": "SCORES",
+      "format": "number"
+    },
+
+    /* =========================
+       QUALITY FUNDAMENTALS
+       ========================= */
+
+    "Asset Turnover (TTM)": {
+      "display": "Asset Turnover (TTM)",
+      "group": "QUALITY",
+      "format": "number"
+    },
+    "Current Ratio (MRQ)": {
+      "display": "Current Ratio (MRQ)",
+      "group": "QUALITY",
+      "format": "number"
+    },
+    "EBIT Margin (TTM)": {
+      "display": "EBIT Margin (TTM)",
+      "group": "QUALITY",
+      "format": "percent"
+    },
+    "EBITDA Margin (TTM)": {
+      "display": "EBITDA Margin (TTM)",
+      "group": "QUALITY",
+      "format": "percent"
+    },
+    "Gross Margin (TTM)": {
+      "display": "Gross Margin (TTM)",
+      "group": "QUALITY",
+      "format": "percent"
+    },
+    "Net Margin (TTM)": {
+      "display": "Net Margin (TTM)",
+      "group": "QUALITY",
+      "format": "percent"
+    },
+    "Profit Score": {
+      "display": "Profit Score",
+      "group": "QUALITY",
+      "format": "number"
+    },
+
+    /* =========================
+       VALUE
+       ========================= */
+
+    "EV/EBITDA (TTM)": {
+      "display": "EV/EBITDA (TTM)",
+      "group": "VALUE",
+      "format": "number"
+    },
+    "EV/Sales (TTM)": {
+      "display": "EV/Sales (TTM)",
+      "group": "VALUE",
+      "format": "number"
+    },
+    "P/B (TTM)": {
+      "display": "P/B (TTM)",
+      "group": "VALUE",
+      "format": "number"
+    },
+    "P/CF (TTM)": {
+      "display": "P/CF (TTM)",
+      "group": "VALUE",
+      "format": "number"
+    },
+    "P/E (Fwd)": {
+      "display": "P/E (Forward)",
+      "group": "VALUE",
+      "format": "number"
+    },
+    "P/E (TTM)": {
+      "display": "P/E (TTM)",
+      "group": "VALUE",
+      "format": "number"
+    },
+    "P/S (TTM)": {
+      "display": "P/S (TTM)",
+      "group": "VALUE",
+      "format": "number"
+    },
+
+    /* =========================
+       GROWTH
+       ========================= */
+
+    "EPS CAGR (3Y)": {
+      "display": "EPS CAGR (3Y)",
+      "group": "GROWTH",
+      "format": "percent"
+    },
+    "EPS Growth (Fwd)": {
+      "display": "EPS Growth (Forward)",
+      "group": "GROWTH",
+      "format": "percent"
+    },
+    "EPS Growth (TTM)": {
+      "display": "EPS Growth (TTM)",
+      "group": "GROWTH",
+      "format": "percent"
+    },
+    "Revenue Growth (3Y)": {
+      "display": "Sales CAGR (3Y)",
+      "group": "GROWTH",
+      "format": "percent"
+    },
+    "Revenue Growth (5Y)": {
+      "display": "Sales CAGR (5Y)",
+      "group": "GROWTH",
+      "format": "percent"
+    },
+
+    /* =========================
+       DIVIDENDS
+       ========================= */
+
+    "Dividend CAGR (3Y)": {
+      "display": "Dividend CAGR (3Y)",
+      "group": "DIVIDENDS",
+      "format": "percent"
+    },
+    "Dividend CAGR (5Y)": {
+      "display": "Dividend CAGR (5Y)",
+      "group": "DIVIDENDS",
+      "format": "percent"
+    },
+    "Dividend Consistency Score": {
+      "display": "Dividend Consistency Score",
+      "group": "DIVIDENDS",
+      "format": "number"
+    },
+    "Dividend Score (ETF)": {
+      "display": "Dividend Score (ETF)",
+      "group": "DIVIDENDS",
+      "format": "number"
+    },
+    "Dividend Growth Years": {
+      "display": "Dividend Growth Years",
+      "group": "DIVIDENDS",
+      "format": "integer"
+    },
+    "Dividend Yield (TTM)": {
+      "display": "Dividend Yield (TTM)",
+      "group": "DIVIDENDS",
+      "format": "percent"
+    },
+
+    /* =========================
+       LIQUIDITY
+       ========================= */
+
+    "Average Volume": {
+      "display": "Share Volume",
+      "group": "LIQUIDITY",
+      "format": "integer"
+    },
+    "Average Volume (ETF)": {
+      "display": "ETF Volume",
+      "group": "LIQUIDITY",
+      "format": "integer"
+    },
+    "Weekly Volume (Shares)": {
+      "display": "Weekly Shares Traded",
+      "group": "LIQUIDITY",
+      "format": "integer"
+    },
+
+    /* =========================
+       MOMENTUM
+       ========================= */
+
+    "Price Position (Annual)": {
+      "display": "Price Position (Annual)",
+      "group": "MOMENTUM",
+      "format": "percent"
+    },
+    "Price Return (3M)": {
+      "display": "Price Return (3M)",
+      "group": "MOMENTUM",
+      "format": "percent"
+    },
+    "Price Return (6M)": {
+      "display": "Price Return (6M)",
+      "group": "MOMENTUM",
+      "format": "percent"
+    },
+    "Price Return (YTD)": {
+      "display": "Price Return (YTD)",
+      "group": "MOMENTUM",
+      "format": "percent"
+    },
+    "Price Return (1Y)": {
+      "display": "Price Return (1Y)",
+      "group": "MOMENTUM",
+      "format": "percent"
+    },
+
+    /* =========================
+       COSTS
+       ========================= */
+
+    "Expense Ratio": {
+      "display": "Expense Ratio",
+      "group": "COSTS",
+      "format": "percent"
+    },
+
+    /* =========================
+       RISK
+       ========================= */
+
+    "Debt/Equity (MRQ)": {
+      "display": "Debt/Equity (MRQ)",
+      "group": "RISK",
+      "format": "number"
+    },
+    "Debt/FCF (MRQ)": {
+      "display": "Debt/FCF (MRQ)",
+      "group": "RISK",
+      "format": "number"
+    },
+    "Interest Coverage (MRQ)": {
+      "display": "Interest Coverage (MRQ)",
+      "group": "RISK",
+      "format": "number"
+    },
+
+    /* =========================
+       META (OPTIONAL DISPLAY)
+       ========================= */
+
+    "ETF NAME": {
+      "display": "ETF Name",
+      "group": "META",
+      "format": "text"
+    },
+    "ETF CATEGORY": {
+      "display": "Category",
+      "group": "META",
+      "format": "text"
+    },
+    "SUB-INDUSTRY CONCENTRATION (Top 10)": {
+      "display": "Industry Concentration (Top 10)",
+      "group": "META",
+      "format": "percent"
+    },
+    "Institutional %": {
+      "display": "Institutional %",
+      "group": "META",
+      "format": "percent"
+    },
+    "Inception Date": {
+      "display": "Inception Date",
+      "group": "META",
+      "format": "text"
+    }
+
+  }
 }
