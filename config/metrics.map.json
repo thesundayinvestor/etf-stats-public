@@ -1,6 +1,6 @@
 {
   "metrics": {
-    "composite_score": { "display": "Composite Score", "visible": true, "format": { "example": "7.50" } },
+    "composite_score": { "display": "Composite Score", "visible": true, "format": { "example": "7.500" } },
     "value_score":     { "display": "Value Score",     "visible": true, "format": { "example": "7.50" } },
     "growth_score":    { "display": "Growth Score",    "visible": true, "format": { "example": "7.50" } },
     "momentum_score":  { "display": "Momentum Score",  "visible": true, "format": { "example": "7.50" } },
