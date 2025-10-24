@@ -16,7 +16,7 @@
     "institutional_pct":     { "display": "Institutional %", "visible": false, "format": { "example": "65.0%" } },
     "div_years": { "display": "Consecutive Dividend Years", "visible": false, "format": { "example": "13" } },
     "div_years_etf": { "display": "Dividend Years", "visible": true, "format": { "example": "13" } },
-    "div_growth_years": { "display": "Dividend Growth Years", "visible": false, "format": { "example": "13" } },
+    "div_growth_years": { "display": "Div. Growth Years", "visible": false, "format": { "example": "13" } },
     "div_growth_years_etf": { "display": "Dividend Growth Years", "visible": true, "format": { "example": "13" } },
 
     "aum":                   { "display": "AUM", "visible": true, "format": { "example": "$1B" } },
