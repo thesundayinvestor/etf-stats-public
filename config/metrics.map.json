@@ -21,9 +21,9 @@
 
     "aum":                   { "display": "AUM", "visible": true, "format": { "example": "$1B" } },
     "market_cap":            { "display": "Average Market Cap", "visible": true, "format": { "example": "$1B" } },
-    "avg_volume":            { "display": "Average Volume (Shares)", "visible": false, "format": { "example": "1,000" } },
-    "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "1,000" } },
-    "weekly_volume_shares":  { "display": "Weekly Volume (Shares)", "visible": false, "format": { "example": "1,000" } },
+    "avg_volume":            { "display": "Average Volume (Shares)", "visible": false, "format": { "example": "1M" } },
+    "avg_volume_etf":        { "display": "Volume", "visible": true, "format": { "example": "1M" } },
+    "weekly_volume_shares":  { "display": "Weekly Volume (Shares)", "visible": false, "format": { "example": "M" } },
 
     "expense_ratio":         { "display": "Expense Ratio", "visible": true, "format": { "example": "0.60%" } },
 
@@ -103,7 +103,7 @@
     "div_cagr_3y":           { "display": "Dividend CAGR (3Y)", "visible": false, "format": { "example": "8.00%" } },
     "div_cagr_5y":           { "display": "Dividend CAGR (5Y)", "visible": false, "format": { "example": "7.00%" } },
     "div_cagr_3y_etf":       { "display": "3Y Dividend CAGR", "visible": true, "format": { "example": "8.00%" } },
-    "div_cagr_5y_etf":       { "display": "5Y Dividend CAGR (5Y)", "visible": true, "format": { "example": "7.00%" } },
+    "div_cagr_5y_etf":       { "display": "5Y Dividend CAGR", "visible": true, "format": { "example": "7.00%" } },
     "div_yield_fwd_etf":     { "display": "Dividend Yield (Fwd) (ETF)", "visible": false, "format": { "example": "3.50%" } },
     "expected_div_yield": { "display": "Estimated Dividend Yield", "visible": true, "format": { "example": "3.40%" } },
     "div_consistency_score": { "display": "Dividend Consistency Score (Raw)", "visible": false, "format": { "example": "7.50" } },
