@@ -22,7 +22,7 @@
     "eps_growth_fwd": { "display": "EPS Growth (Forward)", "group": "GROWTH", "format": "percent", "enabled": true },
     "eps_growth_ttm": { "display": "EPS Growth (TTM)",     "group": "GROWTH", "format": "percent", "enabled": true },
 
-    "price_ret_1m":  { "display": "Price Return (1M)",  "group": "MOMENTUM", "format": "percent", "enabled": true },
+    "price_ret_1m":  { "display": "Price Return (1M)",  "group": "MOMENTUM", "format": "percent", "enabled": false },
     "price_ret_3m":  { "display": "Price Return (3M)",  "group": "MOMENTUM", "format": "percent", "enabled": true },
     "price_ret_6m":  { "display": "Price Return (6M)",  "group": "MOMENTUM", "format": "percent", "enabled": true },
     "price_ret_ytd": { "display": "Price Return (YTD)", "group": "MOMENTUM", "format": "percent", "enabled": true },
