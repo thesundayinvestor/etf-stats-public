@@ -1,8 +1,15 @@
 {
   "metrics": {
-    "asset_turnover_ttm": {
-      "display": "Asset Turnover (TTM)",
-      "format": "number"
-    }
+    "asset_turnover_ttm": { "display": "Asset Turnover (TTM)", "format": "number" },
+    "composite_score": { "display": "Composite Score", "format": "number" },
+    "quality_score": { "display": "Quality Score", "format": "number" },
+    "value_score": { "display": "Value Score", "format": "number" },
+    "growth_score": { "display": "Growth Score", "format": "number" },
+    "momentum_score": { "display": "Momentum Score", "format": "number" },
+    "risk_score": { "display": "Risk Score", "format": "number" },
+    "liquidity_score": { "display": "Liquidity Score", "format": "number" },
+    "size_score": { "display": "Size Score", "format": "number" },
+    "dividends_score": { "display": "Dividend Score", "format": "number" },
+    "sentiment_score": { "display": "Sentiment Score", "format": "number" }
   }
 }
