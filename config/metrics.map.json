@@ -1,114 +1,28 @@
 {
   "metrics": {
-    "asset_turnover_ttm": { "display": "Asset Turnover (Test)", "format": "number", "enabled": false },
-    "aum": { "display": "AUM", "format": "number", "enabled": true },
+    /* ---------- Your factor scores (always read from meta) ---------- */
+    "composite_score": { "display": "Composite Score", "format": "number", "visible": true },
+    "quality_score":   { "display": "Quality Score",   "format": "number", "visible": true },
+    "value_score":     { "display": "Value Score",     "format": "number", "visible": true },
+    "growth_score":    { "display": "Growth Score",    "format": "number", "visible": true },
+    "momentum_score":  { "display": "Momentum Score",  "format": "number", "visible": true },
+    "risk_score":      { "display": "Risk Score",      "format": "number", "visible": true },
+    "liquidity_score": { "display": "Liquidity Score", "format": "number", "visible": true },
+    "size_score":      { "display": "Size Score",      "format": "number", "visible": true },
+    "dividends_score": { "display": "Dividends Score", "format": "number", "visible": true },
+    "sentiment_score": { "display": "Sentiment Score", "format": "number", "visible": true },
+    "costs_score":     { "display": "Costs Score",     "format": "number", "visible": true },
 
-    "avg_volume": { "display": "Average Volume (Shares)", "format": "number", "enabled": true },
-    "avg_volume_etf": { "display": "Average Volume (ETF)", "format": "number", "enabled": true },
+    /* ---------- Example toggles (uncomment to hide entirely) ----------
+    "asset_turnover_ttm": { "display": "Asset Turnover (TTM)", "format": "number", "visible": false },
+    "price_ret_1m":       { "display": "Price Return (1M)",    "format": "percent", "visible": true }
+    ------------------------------------------------------------------- */
 
-    "beta_2y": { "display": "Beta (2Y)", "format": "number", "enabled": true },
-    "beta_5y": { "display": "Beta (5Y)", "format": "number", "enabled": true },
-
-    "composite_score": { "display": "Composite Score", "format": "number", "enabled": true },
-    "dividends_score": { "display": "Dividend Score", "format": "number", "enabled": true },
-    "growth_score": { "display": "Growth Score", "format": "number", "enabled": true },
-    "liquidity_score": { "display": "Liquidity Score", "format": "number", "enabled": true },
-    "momentum_score": { "display": "Momentum Score", "format": "number", "enabled": true },
-    "quality_score": { "display": "Quality Score", "format": "number", "enabled": true },
-    "risk_score": { "display": "Risk Score", "format": "number", "enabled": true },
-    "sentiment_score": { "display": "Sentiment Score", "format": "number", "enabled": true },
-    "size_score": { "display": "Size Score", "format": "number", "enabled": true },
-    "value_score": { "display": "Value Score", "format": "number", "enabled": true },
-
-    "current_ratio_mrq": { "display": "Current Ratio (MRQ)", "format": "number", "enabled": true },
-    "debt_equity_mrq": { "display": "Debt / Equity (MRQ)", "format": "number", "enabled": true },
-    "debt_fcf_mrq": { "display": "Debt / FCF (MRQ)", "format": "number", "enabled": true },
-
-    "div_consistency_score": { "display": "Dividend Consistency Score", "format": "number", "enabled": true },
-    "div_growth_score": { "display": "Dividend Growth Score", "format": "number", "enabled": true },
-    "div_growth_years": { "display": "Dividend Growth Years", "format": "number", "enabled": true },
-    "div_payout_4y": { "display": "Dividend Payout (4Y)", "format": "percent", "enabled": true },
-    "div_payout_ttm": { "display": "Dividend Payout (TTM)", "format": "percent", "enabled": true },
-    "div_rate_fwd": { "display": "Dividend Rate (Forward)", "format": "number", "enabled": true },
-    "div_rate_ttm": { "display": "Dividend Rate (TTM)", "format": "number", "enabled": true },
-    "div_safety_score": { "display": "Dividend Safety Score", "format": "number", "enabled": true },
-    "div_yield_4y": { "display": "Dividend Yield (4Y)", "format": "percent", "enabled": true },
-    "div_yield_fwd": { "display": "Dividend Yield (Forward)", "format": "percent", "enabled": true },
-    "div_yield_ttm": { "display": "Dividend Yield (TTM)", "format": "percent", "enabled": true },
-    "div_yield_score": { "display": "Dividend Yield Score", "format": "number", "enabled": true },
-
-    "ebit_margin_ttm": { "display": "EBIT Margin (TTM)", "format": "percent", "enabled": true },
-    "ebitda_cagr_3y": { "display": "EBITDA CAGR (3Y)", "format": "percent", "enabled": true },
-    "ebitda_growth_fwd": { "display": "EBITDA Growth (Forward)", "format": "percent", "enabled": true },
-    "ebitda_growth_ttm": { "display": "EBITDA Growth (TTM)", "format": "percent", "enabled": true },
-    "ebitda_margin_ttm": { "display": "EBITDA Margin (TTM)", "format": "percent", "enabled": true },
-
-    "eps_cagr_3y": { "display": "EPS CAGR (3Y)", "format": "percent", "enabled": true },
-    "eps_growth_fwd": { "display": "EPS Growth (Forward)", "format": "percent", "enabled": true },
-    "eps_growth_ttm": { "display": "EPS Growth (TTM)", "format": "percent", "enabled": true },
-    "eps_revision_score": { "display": "EPS Revision Score", "format": "number", "enabled": true },
-    "eps_surprise_pct_mrq": { "display": "EPS Surprise % (MRQ)", "format": "percent", "enabled": true },
-
-    "ev_ebitda_ttm": { "display": "EV/EBITDA (TTM)", "format": "number", "enabled": true },
-    "ev_sales_ttm": { "display": "EV/Sales (TTM)", "format": "number", "enabled": true },
-
-    "expense_ratio": { "display": "Expense Ratio", "format": "percent", "enabled": true },
-
-    "fcf_cagr_3y": { "display": "FCF CAGR (3Y)", "format": "percent", "enabled": true },
-    "fcf_margin_ttm": { "display": "FCF Margin (TTM)", "format": "percent", "enabled": true },
-
-    "gross_margin_ttm": { "display": "Gross Margin (TTM)", "format": "percent", "enabled": true },
-
-    "interest_coverage_mrq": { "display": "Interest Coverage (MRQ)", "format": "number", "enabled": true },
-    "ltd_total_capital_mrq": { "display": "LTD / Total Capital (MRQ)", "format": "percent", "enabled": true },
-
-    "market_cap": { "display": "Market Cap", "format": "number", "enabled": true },
-
-    "net_income_cagr_3y": { "display": "Net Income CAGR (3Y)", "format": "percent", "enabled": true },
-    "net_margin_ttm": { "display": "Net Margin (TTM)", "format": "percent", "enabled": true },
-
-    "p_b_ttm": { "display": "P/B (TTM)", "format": "number", "enabled": true },
-    "p_cf_ttm": { "display": "P/CF (TTM)", "format": "number", "enabled": true },
-    "p_e_fwd": { "display": "P/E (Forward)", "format": "number", "enabled": true },
-    "p_e_ttm": { "display": "P/E (TTM)", "format": "number", "enabled": true },
-    "p_s_ttm": { "display": "P/S (TTM)", "format": "number", "enabled": true },
-
-    "price_pos_annual": { "display": "Price Position (Annual)", "format": "percent", "enabled": true },
-
-    "price_ret_10y": { "display": "Price Return (10Y)", "format": "percent", "enabled": true },
-    "price_ret_1m": { "display": "Price Return (1M)", "format": "percent", "enabled": false },
-    "price_ret_1w": { "display": "Price Return (1W)", "format": "percent", "enabled": true },
-    "price_ret_1y": { "display": "Price Return (1Y)", "format": "percent", "enabled": true },
-    "price_ret_3y": { "display": "Price Return (3Y)", "format": "percent", "enabled": true },
-    "price_ret_5y": { "display": "Price Return (5Y)", "format": "percent", "enabled": true },
-    "price_ret_6m": { "display": "Price Return (6M)", "format": "percent", "enabled": true },
-    "price_ret_ytd": { "display": "Price Return (YTD)", "format": "percent", "enabled": true },
-
-    "price_vs_100d_sma": { "display": "Price vs 100D SMA", "format": "percent", "enabled": true },
-    "price_vs_10d_sma": { "display": "Price vs 10D SMA", "format": "percent", "enabled": true },
-    "price_vs_200d_sma": { "display": "Price vs 200D SMA", "format": "percent", "enabled": true },
-    "price_vs_50d_sma": { "display": "Price vs 50D SMA", "format": "percent", "enabled": true },
-
-    "profit_score": { "display": "Profit Score", "format": "number", "enabled": true },
-
-    "quick_ratio_mrq": { "display": "Quick Ratio (MRQ)", "format": "number", "enabled": true },
-    "roa_ttm": { "display": "ROA (TTM)", "format": "percent", "enabled": true },
-    "roe_ttm": { "display": "ROE (TTM)", "format": "percent", "enabled": true },
-    "rotc_ttm": { "display": "ROTC (TTM)", "format": "percent", "enabled": true },
-
-    "sales_cagr_3y": { "display": "Sales CAGR (3Y)", "format": "percent", "enabled": true },
-    "sales_cagr_5y": { "display": "Sales CAGR (5Y)", "format": "percent", "enabled": true },
-    "sales_growth_fwd": { "display": "Sales Growth (Forward)", "format": "percent", "enabled": true },
-    "sales_growth_ttm": { "display": "Sales Growth (TTM)", "format": "percent", "enabled": true },
-    "sales_surprise_pct_mrq": { "display": "Sales Surprise % (MRQ)", "format": "percent", "enabled": true },
-
-    "subindustry_concentration_top10": { "display": "Sub-Industry Concentration (Top 10)", "format": "percent", "enabled": true },
-
-    "total_assets_cagr_3y": { "display": "Total Assets CAGR (3Y)", "format": "percent", "enabled": true },
-    "total_return_10y": { "display": "Total Return (10Y)", "format": "percent", "enabled": true },
-    "total_return_3y": { "display": "Total Return (3Y)", "format": "percent", "enabled": true },
-    "total_return_5y": { "display": "Total Return (5Y)", "format": "percent", "enabled": true },
-
-    "weekly_volume_shares": { "display": "Weekly Volume (Shares)", "format": "number", "enabled": true }
+    /* No other entries needed here; the app auto-discovers and adds the rest. */
+    /* Note: any SA duplicates (value_score, growth_score, momentum_score, etc.)
+       are remapped to *_raw with labels like "Value Score (SA)" so they don't
+       collide with your factor scores above. */
+    /* Phantom key guard: price_ret_3m is removed in code. */
+    "_notes": "This map is override-only: it just sets labels/visibility for the few items that need control. All other numeric metrics from latest.json are discovered at runtime and shown by default."
   }
 }
