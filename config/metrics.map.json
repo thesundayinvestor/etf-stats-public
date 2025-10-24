@@ -1,15 +1,64 @@
 {
   "metrics": {
-    "asset_turnover_ttm": { "display": "Asset Turnover (TTM)", "format": "number" },
-    "composite_score": { "display": "Composite Score", "format": "number" },
-    "quality_score": { "display": "Quality Score", "format": "number" },
-    "value_score": { "display": "Value Score", "format": "number" },
-    "growth_score": { "display": "Growth Score", "format": "number" },
-    "momentum_score": { "display": "Momentum Score", "format": "number" },
-    "risk_score": { "display": "Risk Score", "format": "number" },
-    "liquidity_score": { "display": "Liquidity Score", "format": "number" },
-    "size_score": { "display": "Size Score", "format": "number" },
-    "dividends_score": { "display": "Dividend Score", "format": "number" },
-    "sentiment_score": { "display": "Sentiment Score", "format": "number" }
+    "asset_turnover_ttm": { "display": "Asset Turnover (TTM)", "group": "QUALITY", "format": "number", "enabled": true },
+    "current_ratio_mrq": { "display": "Current Ratio (MRQ)", "group": "QUALITY", "format": "number", "enabled": true },
+    "ebit_margin_ttm":   { "display": "EBIT Margin (TTM)",   "group": "QUALITY", "format": "percent", "enabled": true },
+    "ebitda_margin_ttm": { "display": "EBITDA Margin (TTM)", "group": "QUALITY", "format": "percent", "enabled": true },
+    "fcf_margin_ttm":    { "display": "FCF Margin (TTM)",    "group": "QUALITY", "format": "percent", "enabled": true },
+    "gross_margin_ttm":  { "display": "Gross Margin (TTM)",  "group": "QUALITY", "format": "percent", "enabled": true },
+    "net_margin_ttm":    { "display": "Net Margin (TTM)",    "group": "QUALITY", "format": "percent", "enabled": true },
+    "roa_ttm":           { "display": "ROA (TTM)",           "group": "QUALITY", "format": "percent", "enabled": true },
+    "roe_ttm":           { "display": "ROE (TTM)",           "group": "QUALITY", "format": "percent", "enabled": true },
+    "rotc_ttm":          { "display": "ROTC (TTM)",          "group": "QUALITY", "format": "percent", "enabled": true },
+
+    "ev_ebitda_ttm": { "display": "EV/EBITDA (TTM)", "group": "VALUE", "format": "number", "enabled": true },
+    "ev_sales_ttm":  { "display": "EV/Sales (TTM)",  "group": "VALUE", "format": "number", "enabled": true },
+    "p_b_ttm":       { "display": "P/B (TTM)",       "group": "VALUE", "format": "number", "enabled": true },
+    "p_cf_ttm":      { "display": "P/CF (TTM)",      "group": "VALUE", "format": "number", "enabled": true },
+    "p_e_fwd":       { "display": "P/E (Forward)",   "group": "VALUE", "format": "number", "enabled": true },
+    "p_e_ttm":       { "display": "P/E (TTM)",       "group": "VALUE", "format": "number", "enabled": true },
+    "p_s_ttm":       { "display": "P/S (TTM)",       "group": "VALUE", "format": "number", "enabled": true },
+
+    "eps_growth_fwd": { "display": "EPS Growth (Forward)", "group": "GROWTH", "format": "percent", "enabled": true },
+    "eps_growth_ttm": { "display": "EPS Growth (TTM)",     "group": "GROWTH", "format": "percent", "enabled": true },
+
+    "price_ret_1m":  { "display": "Price Return (1M)",  "group": "MOMENTUM", "format": "percent", "enabled": true },
+    "price_ret_3m":  { "display": "Price Return (3M)",  "group": "MOMENTUM", "format": "percent", "enabled": true },
+    "price_ret_6m":  { "display": "Price Return (6M)",  "group": "MOMENTUM", "format": "percent", "enabled": true },
+    "price_ret_ytd": { "display": "Price Return (YTD)", "group": "MOMENTUM", "format": "percent", "enabled": true },
+    "price_vs_50d_sma":  { "display": "Price vs 50D SMA",  "group": "MOMENTUM", "format": "percent", "enabled": true },
+    "price_vs_200d_sma": { "display": "Price vs 200D SMA", "group": "MOMENTUM", "format": "percent", "enabled": true },
+
+    "beta_2y": { "display": "Beta (2Y)", "group": "RISK", "format": "number", "enabled": true },
+    "beta_5y": { "display": "Beta (5Y)", "group": "RISK", "format": "number", "enabled": true },
+    "debt_equity_mrq":      { "display": "Debt / Equity (MRQ)",      "group": "RISK", "format": "number", "enabled": true },
+    "interest_coverage_mrq":{ "display": "Interest Coverage (MRQ)",  "group": "RISK", "format": "number", "enabled": true },
+    "ltd_total_capital_mrq":{ "display": "LTD / Total Capital (MRQ)","group": "RISK", "format": "percent", "enabled": true },
+
+    "avg_volume":       { "display": "Average Volume (Shares)", "group": "LIQUIDITY", "format": "number", "enabled": true },
+    "avg_volume_etf":   { "display": "Average Volume (ETF)",    "group": "LIQUIDITY", "format": "number", "enabled": true },
+    "weekly_volume_shares": { "display": "Weekly Volume (Shares)", "group": "LIQUIDITY", "format": "number", "enabled": true },
+    "aum":              { "display": "AUM",                     "group": "LIQUIDITY", "format": "number", "enabled": true },
+
+    "expense_ratio": { "display": "Expense Ratio", "group": "COSTS", "format": "percent", "enabled": true },
+
+    "div_rate_fwd":   { "display": "Dividend Rate (Forward)", "group": "DIVIDENDS", "format": "number", "enabled": true },
+    "div_rate_ttm":   { "display": "Dividend Rate (TTM)",     "group": "DIVIDENDS", "format": "number", "enabled": true },
+    "div_yield_fwd":  { "display": "Dividend Yield (Forward)","group": "DIVIDENDS", "format": "percent", "enabled": true },
+    "div_yield_ttm":  { "display": "Dividend Yield (TTM)",    "group": "DIVIDENDS", "format": "percent", "enabled": true },
+    "div_payout_ttm": { "display": "Dividend Payout (TTM)",   "group": "DIVIDENDS", "format": "percent", "enabled": true },
+    "div_growth_years": { "display": "Dividend Growth Years", "group": "DIVIDENDS", "format": "number", "enabled": true },
+
+    "composite_score": { "display": "Composite Score", "group": "SCORES", "format": "number", "enabled": true },
+    "dividends_score": { "display": "Dividend Score",  "group": "SCORES", "format": "number", "enabled": true },
+    "growth_score":    { "display": "Growth Score",    "group": "SCORES", "format": "number", "enabled": true },
+    "liquidity_score": { "display": "Liquidity Score", "group": "SCORES", "format": "number", "enabled": true },
+    "momentum_score":  { "display": "Momentum Score",  "group": "SCORES", "format": "number", "enabled": true },
+    "quality_score":   { "display": "Quality Score",   "group": "SCORES", "format": "number", "enabled": true },
+    "risk_score":      { "display": "Risk Score",      "group": "SCORES", "format": "number", "enabled": true },
+    "sentiment_score": { "display": "Sentiment Score", "group": "SCORES", "format": "number", "enabled": true },
+    "size_score":      { "display": "Size Score",      "group": "SCORES", "format": "number", "enabled": true },
+    "value_score":     { "display": "Value Score",     "group": "SCORES", "format": "number", "enabled": true }
+
   }
 }
