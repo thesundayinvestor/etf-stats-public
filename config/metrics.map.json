@@ -1,6 +1,6 @@
 {
   "metrics": {
-    "asset_turnover_ttm": { "display": "Asset Turnover (TTM)", "format": "number", "enabled": true },
+    "asset_turnover_ttm": { "display": "Asset Turnover (TTM)", "format": "number", "enabled": false },
     "aum": { "display": "AUM", "format": "number", "enabled": true },
 
     "avg_volume": { "display": "Average Volume (Shares)", "format": "number", "enabled": true },
