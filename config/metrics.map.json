@@ -82,7 +82,7 @@
     "price_vs_50d_sma":      { "display": "Price vs 50D SMA Raw", "visible": true, "format": { "example": "2.50%" } },
     "price_vs_100d_sma":     { "display": "Price vs 100D SMA Raw", "visible": true, "format": { "example": "3.50%" } },
     "price_vs_200d_sma":     { "display": "Price vs 200D SMA Raw", "visible": true, "format": { "example": "5.00%" } },
-    "return_1m":     { "display": "1-Month Return (Testing)", "visible": true, "format": { "example": "5.00%" } },
+    "return_1m":             { "display": "1-Month Return (ETF)", "visible": true, "format": { "example": "5.00%" } },
 
     "beta_2y":               { "display": "Beta (2Y)", "visible": true, "format": { "example": "0.75" } },
     "beta_5y":               { "display": "Beta (5Y)", "visible": true, "format": { "example": "0.85" } },
