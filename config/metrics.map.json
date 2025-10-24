@@ -1,6 +1,6 @@
 {
   "metrics": {
-    "composite_score": { "display": "Composite Score", "visible": true, "format": { "example": "7.500" } },
+    "composite_score": { "display": "Composite Score", "visible": true, "format": { "example": "7.50" } },
     "value_score":     { "display": "Value Score",     "visible": true, "format": { "example": "7.50" } },
     "growth_score":    { "display": "Growth Score",    "visible": true, "format": { "example": "7.50" } },
     "momentum_score":  { "display": "Momentum Score",  "visible": true, "format": { "example": "7.50" } },
@@ -12,7 +12,7 @@
     "sentiment_score": { "display": "Sentiment Score", "visible": true, "format": { "example": "7.50" } },
     "costs_score":     { "display": "Cost Score",     "visible": true, "format": { "example": "7.50" } },
 
-    "inception_date":        { "display": "Inception Date", "visible": true, "format": { "example": "12-31-2024" } },
+    "inception_date":        { "display": "Inception Date", "visible": true, "format": { "example": "2024-12-31" } },
     "institutional_pct":     { "display": "Institutional %", "visible": false, "format": { "example": "65.0%" } },
     "div_years": { "display": "Consecutive Dividend Years", "visible": false, "format": { "example": "13" } },
     "div_years_etf": { "display": "Dividend Years", "visible": true, "format": { "example": "13" } },
